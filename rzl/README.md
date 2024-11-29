@@ -26,3 +26,15 @@ Berikut adalah template notebook untuk melatih model YOLO untuk object detection
 Akses link: [ml-receipt-product-item-object-detection](https://colab.research.google.com/drive/17hk3dNzTcKOXFavB0gl-OQ0Y8VSwLVIj?usp=sharing)
 
 ### Natural Language Processing
+
+Template notebook colab untuk klasifikasi sebuah product berdasarkan nama menjadi salah satu dari enam label. Beberapa label tersebut adalah sebagai berikut:
+
+- home living
+- minuman
+- product-segar
+- kecantikan
+- kesehatan
+- makanan
+- lainnya (jika prediksi < threshold)
+
+Akses link: [ml-product-classification-nlp](https://colab.research.google.com/drive/1OFVkkYzcKNfkysjA0GZJCj0px2XvkySk?usp=sharing)
