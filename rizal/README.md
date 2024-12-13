@@ -2,7 +2,7 @@
 
 ### Data Preparation
 
-Template colab untuk melakukan scrapping data product dari website Indomaret berdasarkan enam kategori sebagai berikut:
+Notebook template for scrapping product data from Indomaret website based on six categories as follows:
 
 - home living
 - kecantikan
@@ -11,29 +11,32 @@ Template colab untuk melakukan scrapping data product dari website Indomaret ber
 - minuman
 - product segar
 
-Seluruh data product dari setiap kategori kemudian di merge menjadi satu file csv dan dilakukan shuffle. Hal ini bertujuan agar distribusi data menjadi lebih merata untuk training dan validation.
+All product data from each category is merged into one csv file and shuffled. This aims to make the data distribution more evenly distributed for training and validation.
 
-Akses link: [ml-data-preparation](https://colab.research.google.com/drive/1ub9DEDWK6IHSfELRUw-8yibeaVj_xtos?usp=sharing)
+Access link: [ml-data-preparation](https://colab.research.google.com/drive/1ub9DEDWK6IHSfELRUw-8yibeaVj_xtos?usp=sharing)
 
 ### Receipt Generator
 
-Template notebook untuk generate custom random receipt berdasarkan data hasil scrapping pada notebook sebelumnya. Gunakan font monospace agar format tidak hancur dan konsisten. Font dapat diunduh melalui google fonts, kemudian diimport ke colab dan diberi nama font.ttf.
+Notebook template to generate custom random receipts based on the scrapped data in the previous notebook.
 
-Akses link: [ml-receipt-generator](https://colab.research.google.com/drive/1iDcR0TSDfU4fccUIpFciPAj5v-08lstJ?usp=sharing)
+Instructions:
+Use monospaced fonts to keep the formatting consistent. Fonts can be downloaded via google fonts, then imported into colab and named “font.ttf”.
+
+Access link: [ml-receipt-generator](https://colab.research.google.com/drive/1iDcR0TSDfU4fccUIpFciPAj5v-08lstJ?usp=sharing)
 
 ### Object Detection
 
-Berikut adalah template notebook untuk melatih model YOLO untuk object detection dengan tiga label. Berikut beberapa label yang dapat dideteksi oleh model tersebut:
+Notebook template to train the YOLO model for object detection with three labels. Here are some labels that can be detected by the model:
 
 - product_item
-- product_item_voucher
-- product_item_discount
+- product_item_voucher [canceled]
+- product_item_discount [canceled]
 
-Akses link: [ml-receipt-product-item-object-detection](https://colab.research.google.com/drive/17hk3dNzTcKOXFavB0gl-OQ0Y8VSwLVIj?usp=sharing)
+Access link: [ml-receipt-product-item-object-detection](https://colab.research.google.com/drive/17hk3dNzTcKOXFavB0gl-OQ0Y8VSwLVIj?usp=sharing)
 
 ### Natural Language Processing
 
-Template notebook colab untuk klasifikasi sebuah product berdasarkan nama menjadi salah satu dari enam label. Beberapa label tersebut adalah sebagai berikut:
+Notebook template for classifying a product by name using NLP. The model will classify into one of the seven available labels. Some of these labels are as follows:
 
 - home living
 - minuman
@@ -41,6 +44,6 @@ Template notebook colab untuk klasifikasi sebuah product berdasarkan nama menjad
 - kecantikan
 - kesehatan
 - makanan
-- lainnya (jika prediksi < threshold)
+- lainnya (if confidence < threshold)
 
-Akses link: [ml-product-classification-nlp](https://colab.research.google.com/drive/1OFVkkYzcKNfkysjA0GZJCj0px2XvkySk?usp=sharing)
+Access link: [ml-product-classification-nlp](https://colab.research.google.com/drive/1OFVkkYzcKNfkysjA0GZJCj0px2XvkySk?usp=sharing)
